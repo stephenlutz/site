@@ -325,3 +325,7 @@ body * {
 .social-icon.linkedin {
   --color: #0077B5;
 }
+
+.social-icon i {
+  font-size: 10px;
+}
