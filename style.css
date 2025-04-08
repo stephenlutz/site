@@ -352,3 +352,8 @@ body * {
 .wrapper > *:not(h2) .social-icon {
   pointer-events: auto !important;
 }
+
+.social-icon {
+  margin: 0 7.5px; /* Adds horizontal spacing */
+  /* other properties remain the same */
+}
