@@ -102,7 +102,7 @@ body * {
   display: grid;
   overflow: hidden;
   border-radius: 0.5rem;
-  background: repeating-linear-gradient(to bottom, #f5f5f5 3px, #ebebeb 3px, #ebebeb 6px, #f5f5f5 6px, #f5f5f5 9px) 50% 0px/100% 25px no-repeat, linear-gradient(to right, #222, #222) 50% 26px/100% 1.5px no-repeat, url("https://512pixels.net/downloads/macos-wallpapers-thumbs/10-0_10.1--thumb.png") 50% 50%/cover;
+  background: repeating-linear-gradient(to bottom, #f5f5f5 3px, #ebebeb 3px, #ebebeb 6px, #f5f5f5 6px, #f5f5f5 9px) 50% 0px/100% 25px no-repeat, linear-gradient(to right, #222, #222) 50% 26px/100% 1.5px no-repeat, url("https://512pixels.net/downloads/macos-wallpapers-6k/10-6-6k.jpg") 50% 50%/cover;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 20px;
