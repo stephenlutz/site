@@ -322,3 +322,12 @@ body * {
   background: #1da0c3;
   color: white;
 }
+
+.social-icons a {
+  pointer-events: auto !important;
+}
+
+.social-icon {
+  pointer-events: auto !important;
+  cursor: pointer;
+}
