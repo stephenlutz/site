@@ -331,3 +331,24 @@ body * {
   pointer-events: auto !important;
   cursor: pointer;
 }
+
+/* Make social icons clickable everywhere */
+.social-links .wrapper .social-icons {
+  pointer-events: auto !important;
+  z-index: 10;
+  position: relative;
+}
+
+.social-links .wrapper .social-icons a,
+.social-links .wrapper .social-icon {
+  pointer-events: auto !important;
+  cursor: pointer;
+  position: relative;
+  z-index: 15;
+}
+
+/* Override any other pointer-events rules */
+.wrapper > *:not(h2).social-icons,
+.wrapper > *:not(h2) .social-icon {
+  pointer-events: auto !important;
+}
