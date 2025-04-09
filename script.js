@@ -91,3 +91,16 @@ Draggable.create(".dashboard > div", {
 	inertia: true
 });
 
+// Add this JavaScript code to enable the "jump" animation when clicking on dock icons
+document.addEventListener('DOMContentLoaded', function() {
+  const dockIcons = document.querySelectorAll('footer img');
+  
+  dockIcons.forEach(function(icon) {
+    icon.addEventListener('click', function() {
+      this.classList.remove('jump');
+      // Force reflow to restart animation
+      void this.offsetWidth;
+      this.classList.add('jump');
+    });
+  });
+});
