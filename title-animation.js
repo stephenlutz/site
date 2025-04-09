@@ -29,7 +29,7 @@ function startTitleAnimation() {
     
     // Update the document title
     document.title = titleVariations[currentIndex];
-  }, 500);
+  }, 300);
 }
 
 // Function to stop the animation if needed
