@@ -90,3 +90,18 @@ Draggable.create(".dashboard > div", {
 	type: "x,y",
 	inertia: true
 });
+
+// Function to change the title text
+function animateTitle() {
+  const titleText = "Your Website Name"; // Original title
+  const dots = ["", ".", "..", "..."]; // Different states
+  let index = 0;
+  
+  setInterval(() => {
+    document.title = titleText + dots[index];
+    index = (index + 1) % dots.length;
+  }, 500); // Change every 500ms (half second)
+}
+
+// Run when the page loads
+window.onload = animateTitle;
