@@ -475,3 +475,12 @@ footer img:hover {
     bottom: 0;
   }
 }
+
+footer li a {
+    display: block;
+    text-decoration: none;
+}
+
+footer li a:focus {
+    outline: none;
+}
